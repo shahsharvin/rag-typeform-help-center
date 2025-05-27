@@ -1,4 +1,4 @@
-## RAG Application Documentation
+# Typeform Help Center RAG Application Writeup
 
 This document outlines the design, implementation, and rationale behind the Retrieval Augmented Generation (RAG) application developed to answer questions based on specified Typeform Help Center articles.
 
