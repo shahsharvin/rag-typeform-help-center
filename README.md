@@ -219,7 +219,7 @@ The API provides the following endpoints:
 ---
 
 ## Error Handling & Best Practices
-- **Logging**: Comprehensive logging is implemented using Python's logging module throughout `rag_pipeline.py` and `main.py` to provide visibility into application flow, document processing, and errors.
+- **Logging**: Comprehensive logging is implemented using Python's logging module throughout `rag_pipeline.py` and `app.py` to provide visibility into application flow, document processing, and errors.
 - **API Error Handling**: FastAPI's `HTTPException` is used to return appropriate HTTP status codes (e.g., `400 Bad Request`, `500 Internal Server Error`, `503 Service Unavailable`) and detailed error messages to the client.
 - **Robust Document Fetching**: Uses `httpx` with timeout and `raise_for_status()` to handle network issues and bad HTTP responses during URL fetching.
 - **Pinecone Initialization Check**: The `rag_pipeline` explicitly checks for Pinecone initialization status and handles cases where API keys or environment variables are missing, preventing operations on an uninitialized client.
