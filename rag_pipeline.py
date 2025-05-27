@@ -217,7 +217,7 @@ async def ingest_documents(urls: list[str], chunk_documents: bool) -> tuple[list
                 failed_urls.append(source_url_str)
                 errors.append(f"No content found or generated for {source_url_str}")
                 continue
-            sleep(30.0)
+            sleep(5.0)
             embeddings = await _embed_texts(chunks_to_embed)
 
             vectors_to_upsert = []
