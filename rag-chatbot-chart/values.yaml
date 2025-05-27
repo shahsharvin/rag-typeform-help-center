@@ -1,0 +1,64 @@
+# Default values for rag-chatbot.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: your-dockerhub-username/rag-chatbot # Replace with your Docker Hub username or registry
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "1.0.0" # This should match your appVersion and Docker image tag
+
+service:
+  type: ClusterIP # Use ClusterIP for internal access, LoadBalancer for external access (if your K8s cluster supports it)
+  port: 8000
+
+# Environment variables for the application.
+# Sensitive values should be managed as Kubernetes Secrets.
+# Non-sensitive values can go into a ConfigMap or directly here if very simple.
+env:
+  PINECONE_INDEX_NAME: "typeform-rag-index" # Non-sensitive config
+  EMBEDDING_MODEL: "openai/text-embedding-3-small"
+  LLM_MODEL: "openai/gpt-4.1-mini"
+  CHUNK_SIZE: "2000"
+  CHUNK_OVERLAP: "400"
+
+# Sensitive environment variables for the application (e.g., API keys)
+# These will be stored in a Kubernetes Secret.
+# You MUST base64 encode these values when setting them in the secret directly
+# OR use --set-string for 'helm install' or external secret management.
+# For simplicity in this example, we'll demonstrate using literal strings which Helm will base64 encode.
+# In production, avoid hardcoding secrets here.
+secretEnv:
+  OPENAI_API_KEY: "" # Replace with your actual key
+  PINECONE_API_KEY: "" # Replace with your actual key
+  PINECONE_CLOUD: "aws"
+  PINECONE_REGION: "us-east-1"
+
+# Resources requests and limits for the pod
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 200m
+    memory: 256Mi
+
+# Pod security context (optional, but good practice for production)
+podSecurityContext: {}
+  # fsGroup: 2000
+
+securityContext: {}
+  # capabilities:
+  #   drop:
+  #   - ALL
+  # readOnlyRootFilesystem: true
+  # runAsNonRoot: true
+  # runAsUser: 1000
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}

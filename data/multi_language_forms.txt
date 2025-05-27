@@ -1,0 +1,1244 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <!-- v26041 -->
+
+
+  <title>Create multi-language forms &ndash; Help Center</title>
+
+  
+
+  <meta name="description" content="Save time and reach a wider audience by creating a single form with multiple language options. You'll have the option to write your own..." /><meta property="og:image" content="https://help.typeform.com/hc/theming_assets/01JJ1JGV6KD6WN38D8ZX2H0FE3" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Help Center" />
+<meta property="og:title" content="Create multi-language forms" />
+<meta property="og:description" content="Save time and reach a wider audience by creating a single form with multiple language options. You'll have the option to write your own translations or have AI translate your form for you.  Dependi..." />
+<meta property="og:url" content="https://help.typeform.com/hc/en-us/articles/23541138531732-Create-multi-language-forms" />
+<link rel="canonical" href="https://help.typeform.com/hc/en-us/articles/23541138531732-Create-multi-language-forms">
+<link rel="alternate" hreflang="en-us" href="https://help.typeform.com/hc/en-us/articles/23541138531732-Create-multi-language-forms">
+<link rel="alternate" hreflang="es" href="https://help.typeform.com/hc/es/articles/23541138531732-C%C3%B3mo-crear-formularios-multiling%C3%BCes">
+<link rel="alternate" hreflang="x-default" href="https://help.typeform.com/hc/en-us/articles/23541138531732-Create-multi-language-forms">
+
+  <link rel="stylesheet" href="//static.zdassets.com/hc/assets/application-cfe22f1db0125fea22ea26916411c608.css" media="all" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="/hc/theming_assets/364245/2916876/style.css?digest=37407366676756">
+
+  <link rel="icon" type="image/x-icon" href="/hc/theming_assets/01JC5JAJJ8K6P8JH0NTDGAAMRW">
+
+    
+    
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<!-- OneTrust Cookies Consent Notice start for typeform.com -->
+<script
+  src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+  data-document-language="true"
+  type="text/javascript"
+  charset="UTF-8"
+  data-domain-script="dc37179a-4de5-4648-bd8f-2f087ec53cbd"
+></script>
+<script type="text/javascript">
+  function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for typeform.com -->
+
+<script type="text/javascript">window.Theme = Object.assign(window.Theme || {},
+  { assets: {}, locale: "en-us", signedIn:
+  false
+  });</script>
+<script type="text/javascript" src="/hc/theming_assets/01JC0G7KNJCFB66H61FPJYV8VA"></script>
+
+<!-- GTM starts -->
+<script data-testid='gtag'>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WH2ZQ3X');
+</script>
+<!-- GTM ends -->
+
+<!-- ismobilejs starts -->
+<script type="text/javascript">
+  (function () { var f = {}; var g = /iPhone/i, i = /iPod/i, j = /iPad/i, k =
+  /\biOS-universal(?:.+)Mac\b/i, h = /\bAndroid(?:.+)Mobile\b/i, m = /Android/i,
+  c = /(?:SD4930UR|\bSilk(?:.+)Mobile\b)/i, d = /Silk/i, b = /Windows Phone/i, n
+  = /\bWindows(?:.+)ARM\b/i, p = /BlackBerry/i, q = /BB10/i, s = /Opera Mini/i,
+  t = /\b(CriOS|Chrome)(?:.+)Mobile/i, u = /Mobile(?:.+)Firefox\b/i, v =
+  function (l) { return void 0 !== l && "MacIntel" === l.platform && "number" ==
+  typeof l.maxTouchPoints && l.maxTouchPoints > 1 && "undefined" == typeof
+  MSStream }; function w(l) { return function ($) { return $.test(l) } }
+  function x(l) { var $ = { userAgent: "", platform: "", maxTouchPoints: 0 }; l
+  || "undefined" == typeof navigator ? "string" == typeof l ? $.userAgent = l :
+  l && l.userAgent && ($ = { userAgent: l.userAgent, platform: l.platform,
+  maxTouchPoints: l.maxTouchPoints || 0 }) : $ = { userAgent:
+  navigator.userAgent, platform: navigator.platform, maxTouchPoints:
+  navigator.maxTouchPoints || 0 }; var a = $.userAgent, e = a.split("[FBAN");
+  void 0 !== e[1] && (a = e[0]), void 0 !== (e = a.split("Twitter"))[1] && (a =
+  e[0]); var r = w(a), o = { apple: { phone: r(g) && !r(b), ipod: r(i), tablet:
+  !r(g) && (r(j) || v($)) && !r(b), universal: r(k), device: (r(g) || r(i) ||
+  r(j) || r(k) || v($)) && !r(b) }, amazon: { phone: r(c), tablet: !r(c) &&
+  r(d), device: r(c) || r(d) }, android: { phone: !r(b) && r(c) || !r(b) &&
+  r(h), tablet: !r(b) && !r(c) && !r(h) && (r(d) || r(m)), device: !r(b) &&
+  (r(c) || r(d) || r(h) || r(m)) || r(/\bokhttp\b/i) }, windows: { phone: r(b),
+  tablet: r(n), device: r(b) || r(n) }, other: { blackberry: r(p), blackberry10:
+  r(q), opera: r(s), firefox: r(u), chrome: r(t), device: r(p) || r(q) || r(s)
+  || r(u) || r(t) }, any: !1, phone: !1, tablet: !1 }; return o.any =
+  o.apple.device || o.android.device || o.windows.device || o.other.device,
+  o.phone = o.apple.phone || o.android.phone || o.windows.phone, o.tablet =
+  o.apple.tablet || o.android.tablet || o.windows.tablet, o } f = x(); if
+  (typeof exports === "object" && typeof module !== "undefined") {
+  module.exports = f } else if (typeof define === "function" && define.amd) {
+  define(function () { return f }) } else { this["isMobile"] = f } })();
+</script>
+<!-- ismobilejs ends -->
+
+<!-- Cookie Helper -->
+<script
+  src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"
+></script>
+<!-- uuid Helper -->
+<script
+  src="https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/umd/uuidv4.min.js"
+></script>
+
+<!-- JS Tracking imports -->
+<script
+  src="https://public-assets.typeform.com/public/js-tracking/19.2.0/attributionUtil.js"
+></script>
+<script
+  src="https://public-assets.typeform.com/public/js-tracking/19.2.0/consentUtil.js"
+></script>
+<script
+  src="https://public-assets.typeform.com/public/js-tracking/19.2.0/trackingClient.js"
+></script>
+<script
+  src="https://public-assets.typeform.com/public/js-tracking/19.2.0/cookiesUtil.js"
+></script>
+<!-- JS Tracking imports -->
+
+<!-- Global Attribution ID Helper Starts -->
+<script>
+  (function globalAttributionIdScope() {
+    window.ATTRIBUTION_ID_GLOBAL_KEY = "tid";
+
+    function setGlobalAttributionId() {
+      const attributionIdFromQueryString = new URLSearchParams(
+        window.location.search
+      ).get(window.ATTRIBUTION_ID_GLOBAL_KEY);
+
+      const attributionIdFromState = window.history.state
+        ? window.history.state?.[window.ATTRIBUTION_ID_GLOBAL_KEY]
+        : "";
+
+      const referrer = document.referrer;
+
+      if (attributionIdFromState) {
+        window[window.ATTRIBUTION_ID_GLOBAL_KEY] = attributionIdFromState;
+      } else if (
+        attributionIdFromQueryString &&
+        referrer.includes("typeform.com")
+      ) {
+        window[window.ATTRIBUTION_ID_GLOBAL_KEY] = attributionIdFromQueryString;
+      }
+
+      if (attributionIdFromQueryString) {
+        const urlObj = new URL(window.location.href);
+        urlObj.searchParams.delete(window.ATTRIBUTION_ID_GLOBAL_KEY);
+
+        const urlWithoutAttributionId = urlObj.toString();
+
+        window.history.replaceState(
+          {
+            ...window.history.state,
+            [window.ATTRIBUTION_ID_GLOBAL_KEY]:
+              window[window.ATTRIBUTION_ID_GLOBAL_KEY],
+          },
+          "",
+          urlWithoutAttributionId
+        );
+      }
+    }
+
+    window.getAttributionUserId = function getAttributionUserId() {
+      return window[window.ATTRIBUTION_ID_GLOBAL_KEY] || null;
+    };
+    window.setAttributionUserId = function setAttributionUserId(id) {
+      window[window.ATTRIBUTION_ID_GLOBAL_KEY] = id;
+    };
+
+    function syncAttributionIdState() {
+      const attributionUserIdFromCookie = Cookies.get("attribution_user_id");
+      const attributionUserIdFromState = window.getAttributionUserId();
+      /*
+      1. If attribution cookie is present and different than global attribution id
+      use attribution cookie as source of truth
+    */
+      if (
+        attributionUserIdFromCookie &&
+        attributionUserIdFromCookie !== attributionUserIdFromState
+      ) {
+        window.setAttributionUserId(attributionUserIdFromCookie);
+      }
+
+      /*
+      2. If global attribution id is undefined/null create a new uuid
+    */
+      if (!window.getAttributionUserId()) {
+        window.setAttributionUserId(uuidv4());
+      }
+      /*
+      3. Finally, replace history state with the latest attribution id
+      so that back/forward/refresh actions have the current state
+    */
+      window.history.replaceState(
+        {
+          ...window.history.state,
+          [window.ATTRIBUTION_ID_GLOBAL_KEY]: window.getAttributionUserId(),
+        },
+        "",
+        window.location.href
+      );
+    }
+
+    setGlobalAttributionId();
+    syncAttributionIdState();
+  })();
+</script>
+<!-- Global Attribution ID Helper Ends -->
+
+
+<link rel="stylesheet" href="/hc/theming_assets/01JC0G7M2RTX2560JFZJHVA6BX" />
+<link rel="stylesheet" href="/hc/theming_assets/01JC0G7KSGAT5V8HF9HGRGA0E1" />
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v6.4.0/css/all.css"
+/>
+
+
+<style id="settings-styles">
+  :root {
+    --bg-color: #FAF9FB;
+    --header-desktop-height: 88px;
+    --header-mobile-height: 64px;
+    --bg-color: #FAF9FB;
+    --bg-color-footer: #3C323E;
+    --color-text-inverse: #FFFFFF;
+    --color-footer-text: #FFFFFF;
+  }
+  
+    .note::before { display: none; }
+  
+  
+    .warning::before { display: none; }
+  </style>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link
+    as="style"
+    href="https://www.typeform.com/fonts/font-subset.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link
+    as="font"
+    href="https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-english.woff2"
+    fetchpriority="high"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    href="https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Bold-english.woff2"
+    fetchpriority="low"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    href="https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Light-english.woff2"
+    fetchpriority="high"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    href="https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Medium-english.woff2"
+    fetchpriority="high"
+    rel="preload"
+    type="font/woff2"
+  />
+  <link
+    as="font"
+    href="https://www.typeform.com/fonts/fonts/experiments/ApercuPro-Regular-rest.woff2"
+    fetchpriority="low"
+    rel="preload"
+    type="font/woff2"
+  />
+
+  
+</head>
+<body class="">
+  
+  
+  
+
+  <a class="sr-only sr-only-focusable" tabindex="1" href="#page-container">
+  Skip to main content
+</a>
+
+<div class="layout flex flex-1 flex-column" x-data="Widgets.mobileMenu">
+
+  
+  <header class="header sticky-header"
+    x-data="Widgets.header({ isSticky: true })"
+    :class="{ 'text-header': isStuck, 'bg-header': isStuck }">
+    <div class="grid h-full">
+      <nav class="navbar col-span-all" :class="{ 'text-header': isOpen }">
+
+        
+        <a href="/hc/en-us" class="navbar-brand mr-auto" x-data="link" @click="() => handleClick('header', 'logo', 'header', 'logo')">
+          <img class="block img-fluid z-100" id="logo" src="/hc/theming_assets/01JJ1JGV6KD6WN38D8ZX2H0FE3" alt="Help Center Help Center home page"></a>
+
+        
+        <button class="navbar-toggle ml-2 lg:hidden" x-data x-ref="toggle" :aria-expanded="isOpen && 'true'" @click="() => {toggle(); handleClick('header', 'user_menu');}" @keydown.escape="toggle" >
+          <span></span>
+          <span class="sr-only">Toggle navigation menu</span>
+        </button>
+
+        
+
+        
+        <div class="nav menu menu-standard menu-links-right lg:flex lg:align-items-center lg:font-size-md lg:menu-expanded lg:justify-content-end"
+          x-cloak x-show="isOpen" :class="{ 'text-header': isOpen }"
+          x-transition:enter="transition-fast"
+          x-transition:enter-start="opacity-0"
+          x-transition:enter-end="opacity-100"
+          x-transition:leave="transition-fast"
+          x-transition:leave-start="opacity-100 text-header"
+          x-transition:leave-end="opacity-0 text-header">
+
+          
+            <div class="search flex text-base mx-4 mb-4 flex-first lg:max-w-13 lg:flex-1 lg:mx-5 lg:mb-0" x-data="Widgets.search">
+              <form role="search" class="form-field flex-1 mb-0" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" /><input type="search" name="query" id="query" placeholder="Find answers..." aria-label="Find answers..." /></form>
+              <svg class="search-icon fill-current transition w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                <use xlink:href="#icon-search" />
+              </svg>
+            </div>
+          
+
+          
+          <a class="nav-link header-link" href="https://www.typeform.com/" x-data="link" @click="() => handleClick('back_to_website', 'link', 'header')">
+            Back to website
+          </a>
+          
+          <a class="nav-link header-link" href="https://community.typeform.com/" x-data="link" @click="() => handleClick('header2', 'link', 'header')">
+            Community
+          </a>
+          
+          <a class="nav-link header-link" href="https://help.typeform.com/hc/en-us/articles/29035269414036-Changelog" x-data="link" @click="() => handleClick('community', 'link', 'header')">
+            Changelog
+          </a>
+          
+            <a
+              class="button m-2 header-link button-primary flex-last lg:order-inherit lg:my-0" href="/hc/en-us/requests/new" x-data="link" @click="() => handleClick('contact_support', 'button', 'header')">
+              Submit a request
+            </a>
+          
+            
+          
+
+          
+            <a
+              class="button m-2 button-primary flex-last lg:order-inherit lg:my-0" href="/hc/en-us/signin?return_to=https%3A%2F%2Fhelp.typeform.com%2Fhc%2Fen-us%2Farticles%2F23541138531732-Create-multi-language-forms%3F_gl%3D1%252Aiv5ts5%252A_up%252AMQ..%252A_ga%252ANjMxMzgwMTMuMTc0MzQ5ODM1MQ..%252A_ga_YBVHZJ5VPC%252AMTc0MzQ5ODM1MC4xLjEuMTc0MzQ5ODk0NC4wLjAuMA..%252A_ga_N6F0VDRT9W%252AMTc0MzQ5ODM1MC4xLjEuMTc0MzQ5ODk0NC4wLjAuMA.." x-data="link" @click="() => handleClick('login', 'button', 'header')">
+              Sign in
+            </a>
+          </div>
+      </nav>
+    </div>
+  </header> 
+
+
+
+
+
+  <main role="main">
+    
+<div class="hero bg-hero">
+  <div class="grid mb-6">
+    
+    <div class="col-span-all">
+      <div class="col-span-all">
+        <nav aria-label="Current location">
+  <ol class="breadcrumbs">
+    
+      <li>
+        
+          <a href="/hc/en-us">Help Center</a>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/hc/en-us/categories/37272125667092-Building-a-form">Building a form</a>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/hc/en-us/sections/37272301452436-Create-a-form">Create a form</a>
+        
+      </li>
+    
+  </ol>
+</nav>
+
+      </div>
+    </div>
+  </div>
+  
+  <div class="grid bg-gray-100 md:bg-transparent">
+    <div class="col-span-all">
+      <nav id="category-tabs" data-element="navigation" data-template="category-tabs"></nav>
+    </div>
+  </div>
+</div>
+
+
+<div id="page-container">
+  <section class="section grid">
+    <article class="col-span-all md:col-span-9" itemscope itemtype="http://schema.org/Article">
+      
+      <h1 class="font-size-6xl font-normal mb-5" title="Create multi-language forms" itemprop="name">
+        Create multi-language forms
+        
+      </h1>
+
+      
+      <section class="content article-content mb-6" itemprop="articleBody">
+        
+        <p><strong>Save time and reach a wider audience by creating a single form with multiple language options. You'll have the option to write your own translations or have AI translate your form for you.  Depending on your language settings, you can decide if you want to automatically have your form translated for respondents or give them the option to translate the form. The form will be translated if the respondent's browser language matches one of the translations you've added. All responses will be displayed in one place within your <a href="https://www.typeform.com/help/a/working-with-your-responses-the-table-view-360029253732/" target="_blank" rel="noopener noreferrer">Results</a> panel.</strong></p>
+<p><strong><iframe src="//fast.wistia.com/embed/iframe/gxfitk4z21" width="560" height="315" frameborder="0" allowfullscreen=""></iframe></strong></p>
+<p>You can create multi-language forms with the following languages:<strong><br></strong></p>
+<ul>
+<li>Arabic</li>
+<li>Catalan</li>
+<li>Chinese (simplified)</li>
+<li>Chinese (traditional)</li>
+<li>Croatian</li>
+<li>Danish</li>
+<li>Dutch</li>
+<li>English</li>
+<li>Estonian</li>
+<li>Finnish</li>
+<li>French</li>
+<li>German (formal)</li>
+<li>German (informal)</li>
+<li>Greek</li>
+<li>Hebrew</li>
+<li>Hungarian</li>
+<li>Italian</li>
+<li>Japanese</li>
+<li>Korean</li>
+<li>Norwegian</li>
+<li>Polish</li>
+<li>Portuguese</li>
+<li>Russian</li>
+<li>Spanish</li>
+<li>Swedish</li>
+<li>Turkish</li>
+<li>Ukrainian</li>
+</ul>
+<p>To create multi-language forms, you’ll need a <a href="https://www.typeform.com/pricing/" target="_blank" rel="noopener noreferrer">Business, Growth Pro, Growth Custom, or Enterprise plan</a>.</p>
+<p>We recommend finalizing the text in your form before adding any translations, as this could cause your translations to not match any edited text. If you do need to edit your form, you can always go back and edit your translations to include any changed text.</p>
+<h2 id="h_01HP2Q4WTJWH38DPZ5ANNEJ9K7">Add multiple languages to your form</h2>
+<p><strong>1.</strong> Open your form and click the <strong>Translations</strong> icon.</p>
+<p><img src="/hc/article_attachments/37056320859796" alt="Translate.png" width="625" height="323"></p>
+<p><strong>2.</strong> Click <strong>+ Add languages</strong>.</p>
+<p><img src="/hc/article_attachments/31444509441044" alt="2024-10-21_13-20-45.png" width="463" height="319"></p>
+<p><strong>3.</strong> Select the languages you'd like to add to your form. Then click <strong>Add</strong> when you're done.</p>
+<p>Respondents will only see the banner asking if they want to translate the form if their browser language matches one of the languages you've chosen for translations.</p>
+<p><img src="/hc/article_attachments/31444515766676" alt="2024-10-21_13-23-25.png" width="462" height="394"></p>
+<p><strong>4.</strong> Next, you'll see the status <strong>Translation needed</strong> for the language you selected.</p>
+<p><img src="/hc/article_attachments/31444509442964" alt="2024-10-21_13-26-52.png" width="535" height="371"></p>
+<p>Hover over the language you've added and you can choose how you'd like to translate your form:</p>
+<p>You can <strong>Translate with AI</strong>.</p>
+<p><img src="/hc/article_attachments/31444509444372" alt="2024-10-21_13-29-36.png" width="540" height="372"></p>
+<p>Or <strong>Download a template</strong>.</p>
+<p><img src="/hc/article_attachments/31444509447444" alt="2024-10-21_13-31-12.png" width="543" height="373"></p>
+<p>In our example, we'll select <strong>Translate with AI</strong>. Then, if needed, we can edit the translations that were provided by AI.</p>
+<p>After clicking Translate with AI, you'll see the status has changed to <strong>Translated</strong>.</p>
+<p><img src="/hc/article_attachments/31444509448468" alt="2024-10-21_13-34-31.png" width="597" height="419"></p>
+<p>If you're happy to use the translations provided by AI, you can click <strong>Publish</strong> and your form is ready to go. However, if you'd like to edit the translations provided by AI move on to the next section.</p>
+<h2 id="h_01JT0SZQZ31906PTAKR668M5EM">Edit the translations provided by AI</h2>
+<p><strong>1.</strong> Click <strong>Download template</strong>. This will download the latest stored translation in a CSV file.</p>
+<p>In our example, it'll download the translations AI provided for Hungarian. </p>
+<p><img src="/hc/article_attachments/31444509449748" alt="2024-10-21_13-42-38.png" width="596" height="427"></p>
+<p><strong>2.</strong> Next, open the CSV file. We'll use Google Sheets to open our CSV file.</p>
+<p><img src="/hc/article_attachments/31444515776276" alt="2024-10-21_13-48-25.png" width="625" height="317"></p>
+<p>The CSV file contains the following 3 columns:</p>
+<ul>
+<li>
+<strong>id</strong> - This column contains the ids of fields that have text in the form.</li>
+<li>
+<strong>original</strong> - This column lists the text in your form for questions, statements, answer options, and buttons in the original language. </li>
+<li>
+<strong>translation</strong> - This column lists the corresponding translations provided by AI.</li>
+</ul>
+<p><strong>3.</strong> Edit any of the translations in the <strong>translation</strong> column.</p>
+<p><img src="/hc/article_attachments/31444515777300" alt="2024-10-21_17-18-54.png" width="625" height="275"></p>
+<p>Here are a few things to keep in mind when editing translations:</p>
+<ul>
+<li>You can only edit text in the <strong>translation</strong> column. If you edit any of the other columns, you'll receive an error message when you upload the CSV back into Typeform.</li>
+<li>All of the cells in the translations column must be completed. For example, if you have 15 cells in the <strong>original</strong> column with text, all 15 cells in the <strong>translation</strong> column must be filled in.</li>
+<li>The number of rows must remain the same number from when you downloaded the template. You can't add additional rows to the CSV.</li>
+</ul>
+<p><strong>4.</strong> Download the edited translation template as a CSV file. </p>
+<p><img src="/hc/article_attachments/31444515778452" alt="2024-10-21_17-26-51.png" width="625" height="344"></p>
+<p><strong>5. </strong>Head back to your Typeform account and click <strong>Upload template</strong>. Only CSV files are supported.</p>
+<p><img src="/hc/article_attachments/31444509455508" alt="2024-10-21_17-31-00.png" width="557" height="383"></p>
+<p>A pop-up will appear to let you know that uploading a new translation will replace your current translation file. Click <strong>Upload translation</strong>.</p>
+<p><img src="/hc/article_attachments/31444509456148" alt="2024-10-21_17-32-30.png" width="424" height="191"></p>
+<p>Select the new CSV file you downloaded from step 8 and click <strong>Open</strong>.</p>
+<p><img src="/hc/article_attachments/31444515782548" alt="2024-10-21_17-33-30.png" width="590" height="354"></p>
+<p><strong>6.</strong> When you've finished uploading your new translations. Click <strong>Save </strong>or <strong>Publish edits</strong> to make your changes live.</p>
+<p><img src="/hc/article_attachments/37056312986900" alt="Translate_publish_edits.png" width="625" height="323"></p>
+<p>If you edit the text in your form in the Content panel after you've uploaded a translation, you'll see a notification letting you know that your form has changed and you'll need to update your translations.</p>
+<p><img src="/hc/article_attachments/37056312987668" alt="Translate_message.png"></p>
+<p>Click the <strong>Translations</strong> icon in the toolbar to update your translations. The status of your language will display as <strong>Update required</strong>. Select how you'd like to update your translations.</p>
+<p><img src="/hc/article_attachments/31444509459348" alt="2024-10-21_17-43-41.png" width="524" height="359"></p>
+<p>To delete a translation, click the trash can icon.</p>
+<p><img src="/hc/article_attachments/31444509459988" alt="2024-10-21_17-43-41.png" width="524" height="359"></p>
+<p>If you've made any edits or updates to your form, make sure you click <strong>Publish</strong> to make your changes live.</p>
+<h2 id="01JMG0KZPQ19REYVBK0SW6K12A">Choose your language settings on how translations will be displayed</h2>
+<p>By default, if a respondent's browser language matches one of the languages you've chosen for translation, the form will automatically be translated for them. </p>
+<p>If you would like to give respondents the option to translate the form, they'll see a banner at the top of the form, asking if they want it to be translated. This banner will only appear if their browser language matches one of the languages you've chosen for translation. For instance, if your form is in English and you've selected Spanish as a translated language, Spanish-speaking respondents with their browser language set to Spanish will see the banner asking if they want the form to be translated into Spanish.</p>
+<p>Choose your language settings:</p>
+<p><strong>1.</strong> Open your form and click the settings icon in the tool bar.</p>
+<p><img src="/hc/article_attachments/37056312989972" alt="Translate_settings.png"></p>
+<p><strong>2.</strong> Select <strong>Language</strong>.</p>
+<p><img src="/hc/article_attachments/37056312990868" alt="Translate_language.png" width="625" height="385"></p>
+<p><strong>3.</strong> Under Translations, toggle <strong>Automatically translate to match browser language</strong> to be on or off. This is toggled on by default. Then click <strong>Save</strong> when done.</p>
+<p><img src="/hc/article_attachments/37056320866708" alt="Transalte_auto.png" width="625" height="385"></p>
+<p>If you've chosen to toggle off <strong>Automatically translate to match browser language</strong>, respondents will see a banner at the top of the screen asking them if they would like to translate the form to the language they have set for their browser.</p>
+<p><img src="/hc/article_attachments/23541121557652" alt="multi-language07.png"></p>
+<p>When respondents click the <strong>Translate</strong> button, the form will then appear in their browser's set language.</p>
+<p><img src="/hc/article_attachments/23541121562644" alt="multi-language08.png"></p>
+<h2 id="h_01HP2QK54YZ64VJZ2CTP80JBYJ">FAQ</h2>
+<h3 id="h_01JK5PW62F29DTZHRF4WBMK059">How can I see the translations provided?</h3>
+<p>You’ll be able to see the translations of your form if your browser's language is set to one of the translated languages you’ve selected for your form.<strong><br></strong></p>
+<p>As a workaround, you can change the language settings of your browser to see the translations of your form. For example, if you’ve selected Spanish as one of the translated languages, you can set your browser’s language to Spanish and then you’ll be able to see the translations provided.</p>
+<h3 id="h_01JK5PWCBRSBXQQ02CYSJWF3ZZ">Can I edit the translations?</h3>
+<p>Yes, you can edit translations by downloading the CSV template. Then edit the translations in the translations columns and re-upload the CSV file back into Typeform. Advanced users can edit translations through our API. Check out our <a href="https://www.typeform.com/developers/create/translations/" target="_blank" rel="noopener noreferrer">API documentation here</a>.</p>
+<p>Keep in mind that if you edit translations and then later <a href="/hc/en-us/articles/360029295012" target="_blank" rel="noopener noreferrer">duplicate</a> your form, the copy of your form won't contain the edited translations. </p>
+<h3 id="h_01JK5PWJR78X2BTZ92773E29WC">How long will it take for my form to be translated?</h3>
+<p>Translations can take about 10-15 seconds to load. If your form is very long, or the questions in your form are very wordy, it could take longer. Occasionally, translations may fail if the request is too large. <strong><br></strong></p>
+<h3 id="h_01JK5PWRGAF6PZSQJ0BWDPRH4S">What language will my responses be shown in?</h3>
+<p>Responses for close-ended question types (Multiple Choice, Dropdown, etc.) will be shown in the main language you’ve selected. Responses for open-ended question types (Short Text, Long Text, etc.) will be in the language respondents have entered their answers in.<strong><br></strong></p>
+<h3 id="h_01JKV97C1SQ4GC739HJCVT4WZV">Are there any limitations with translating large forms?</h3>
+<p>If you're using the option to translate your form with AI, there are a few limitations:</p>
+<p>If your form's <a href="/hc/en-us/articles/360050914231" target="_blank" rel="noopener noreferrer">main language</a> is set to English, there are no limitations, unless you have one or more of the following in your form:</p>
+<ul>
+<li>The form has more than one hyperlinked URL. </li>
+<li>The form has more than 100 answer options within one question, or if the form has a <a href="/hc/en-us/articles/360052316132" target="_blank" rel="noopener noreferrer">Question Group</a> with more than 100 answer options.</li>
+<li>The form contains <a href="/hc/en-us/articles/360050914471" target="_blank" rel="noopener noreferrer">Variables</a> or <a href="/hc/en-us/articles/360052676372" target="_blank" rel="noopener noreferrer">URL parameters</a>.</li>
+</ul>
+<p>If your form contains one or more of the above items, we recommend following the limit suggestions for forms set to a non-English language.</p>
+<p>If your form's main language is set to a non-English language, we recommend the following limits on your form:</p>
+<ul>
+<li>20 questions without answer options or up to 10 answer options from <a href="/hc/en-us/articles/360052409312" target="_blank" rel="noopener noreferrer">Multiple Choice</a>, <a href="/hc/en-us/articles/360037943011" target="_blank" rel="noopener noreferrer">Dropdown</a>, <a href="/hc/en-us/articles/360052865591" target="_blank" rel="noopener noreferrer">Picture Choice</a>, Yes/No, or Legal question types. </li>
+<li>10 questions of any type with up to 20 answer options.</li>
+<li>200 words in your form. This can be any text you've entered in your form, such as question text, labels for Picture Choice options, <a href="/hc/en-us/articles/360052366812" target="_blank" rel="noopener noreferrer">Welcome Screen</a>, etc.</li>
+</ul>
+<p>If you've exceeded the recommended limits listed above, this can cause an error when you generate translations with AI. You can however, download the CSV template of your form, manually enter all of the translations, and then re-upload the CSV.</p>
+<h3 id="h_01JMMR9TG56JDF2D9M46BVE28B">How does multi-language forms work with embeds?</h3>
+<p>Multi-language forms will work with forms that are <a href="https://help.typeform.com/hc/en-us/articles/360029249212-Embed-your-form" target="_blank" rel="noopener noreferrer">embedded on a website</a>. However, Multi-language forms won't work if you've <a href="https://help.typeform.com/hc/en-us/articles/360029664091-Launch-your-form-from-an-email" target="_blank" rel="noopener noreferrer">embedded the form in an email</a>.</p>
+      </section>
+
+      
+      
+        
+          <div class="py-7 border-top border-bottom">
+            <h4 class="font-size-2xl">
+              Was this article helpful?
+            </h4>
+            <div class="mt-4" role="group">
+              <button type="button" class="button button-secondary button-icon mr-3" data-helper="vote" data-item="article" data-type="up" data-id="23541138531732" data-upvote-count="2" data-vote-count="4" data-vote-sum="0" data-vote-url="/hc/en-us/articles/23541138531732/vote" data-value="null" data-label="2 out of 4 found this helpful" data-selected-class="is-active" aria-label="This article was helpful" aria-pressed="false">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.8607 3.3641C11.1612 2.78068 11.7634 2.41553 12.4176 2.41553C14.1028 2.41553 15.3998 3.91924 15.1394 5.58917L14.6988 8.41553H19.0656C21.3614 8.41553 23.1183 10.46 22.7729 12.7297L21.9359 18.2297C21.6571 20.0618 20.0818 21.4155 18.2286 21.4155H4.55664C3.59014 21.4155 2.80664 20.632 2.80664 19.6655V12.1655C2.80664 11.199 3.59014 10.4155 4.55664 10.4155H7.22812L10.8607 3.3641ZM6.80664 11.9155H4.55664C4.41857 11.9155 4.30664 12.0275 4.30664 12.1655V19.6655C4.30664 19.8036 4.41857 19.9155 4.55664 19.9155H6.80664V11.9155ZM8.30664 19.9155H18.2286C19.3406 19.9155 20.2857 19.1033 20.453 18.004L21.29 12.504C21.4972 11.1422 20.4431 9.91553 19.0656 9.91553H13.8228C13.6037 9.91553 13.3955 9.81973 13.2531 9.6533C13.1106 9.48687 13.048 9.26646 13.0817 9.04999L13.6573 5.35809C13.7751 4.60252 13.1872 3.91553 12.4176 3.91553C12.323 3.91553 12.2365 3.96874 12.1941 4.05104L8.30664 11.5974V19.9155Z" fill="currentColor"/>
+                  </g>
+                </svg>
+              </button>
+              <button type="button" class="button button-secondary button-icon" data-helper="vote" data-item="article" data-type="down" data-id="23541138531732" data-upvote-count="2" data-vote-count="4" data-vote-sum="0" data-vote-url="/hc/en-us/articles/23541138531732/vote" data-value="null" data-label="2 out of 4 found this helpful" data-selected-class="is-active" aria-label="This article was not helpful" aria-pressed="false">
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.3924 4.91553C6.28154 4.91553 5.33678 5.72744 5.16955 6.82698L4.33302 12.327C4.12582 13.6893 5.17974 14.9155 6.55587 14.9155H11.796C12.0151 14.9155 12.2232 15.0113 12.3657 15.1777C12.5082 15.3441 12.5708 15.5645 12.537 15.781L11.9617 19.4729C11.8435 20.2313 12.4297 20.9155 13.1958 20.9155C13.2939 20.9155 13.3827 20.8592 13.4234 20.78L17.3089 13.2338V4.91553H7.3924ZM18.8089 4.91553V12.9155H21.0568C21.1949 12.9155 21.3068 12.8036 21.3068 12.6655V5.16553C21.3068 5.02746 21.1949 4.91553 21.0568 4.91553H18.8089ZM18.3876 14.4155H21.0568C22.0233 14.4155 22.8068 13.632 22.8068 12.6655V5.16553C22.8068 4.19903 22.0233 3.41553 21.0568 3.41553H7.3924C5.53964 3.41553 3.96522 4.76956 3.6866 6.60143L2.85008 12.1014C2.50494 14.3707 4.26055 16.4155 6.55587 16.4155H10.92L10.4796 19.2419C10.2198 20.909 11.5083 22.4155 13.1958 22.4155C13.8466 22.4155 14.455 22.0533 14.757 21.4666L18.3876 14.4155Z" fill="currentColor"/>
+                  </g>
+                </svg>
+              </button>
+            </div>
+            
+            
+              <p class="mt-5">
+                Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+              </p>
+            
+          </div>
+        
+      
+
+      
+      <footer class="row pt-7">
+        
+          
+  <section class="related-articles">
+    
+      <h2 class="related-articles-title">Related articles</h2>
+    
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCHM9LNVTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJQlMxlpFToLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJSL2hjL2VuLXVzL2FydGljbGVzLzM2MDA1ODczMTg5MS1DcmVhdGUtZm9ybXMtaW4tbXVsdGlwbGUtbGFuZ3VhZ2VzLXdvcmthcm91bmQGOwhUOglyYW5raQY%3D--3ca1c6be8eb75117f700831932453c8e661aef20" rel="nofollow">Create forms in multiple languages (workaround)</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCLfztNRTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJQlMxlpFToLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI%2BL2hjL2VuLXVzL2FydGljbGVzLzM2MDA1MDkxNDIzMS1DaGFuZ2UteW91ci1mb3JtLWxhbmd1YWdlBjsIVDoJcmFua2kH--cf3fa402d453627cd37b8d81774ac06a874e1eb4" rel="nofollow">Change your form language</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCATYz9RTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJQlMxlpFToLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJQL2hjL2VuLXVzL2FydGljbGVzLzM2MDA1MjY3NjYxMi1Vc2luZy1VUkwtcGFyYW1ldGVycy1mb3JtZXJseS1IaWRkZW4tRmllbGRzBjsIVDoJcmFua2kI--ad85db2dd2d129c1d5e42b20e1604ea7ee49f08c" rel="nofollow">Using URL parameters (formerly Hidden Fields)</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBS4SWZuFzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJQlMxlpFToLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJHL2hjL2VuLXVzL2FydGljbGVzLzI1NzYyOTI5OTQ4NjkyLUFkZC12aWRlby1xdWVzdGlvbnMtdG8teW91ci1mb3JtBjsIVDoJcmFua2kJ--4fbfbd07f88fefad6cf3823b9c0e18f7b2db3a7a" rel="nofollow">Add video questions to your form</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCMwRa9NTADoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJQlMxlpFToLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJOL2hjL2VuLXVzL2FydGljbGVzLzM2MDAyOTI5NTA1Mi1BZGQtdXNlcnMtdG8tT3JnYW5pemF0aW9ucy1hbmQtV29ya3NwYWNlcwY7CFQ6CXJhbmtpCg%3D%3D--df81019f267015009e6fa35173194189a5b1d5a6" rel="nofollow">Add users to Organizations and Workspaces</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+        
+        
+          <div data-recent-articles></div>
+        
+      </footer>
+    </article>
+
+    
+    <aside class="col-span-all md:col-span-3 md:col md:max-w-13">
+      <div
+        x-data="{ tableOfContents: false }"
+        :class="{ 'sticky top-0': tableOfContents }"
+        @table-of-contents:render.camel="tableOfContents = $event.target.children.length > 0">
+
+        
+        <div
+          class="table-of-contents hidden lg:block"
+          data-element="table-of-contents"
+          data-template="sidebar-table-of-contents"
+          data-selector=".article-content h2">
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  <section class="section grid">
+    <div class="closing-section col-span-all lg:col-span-6 bg-secondary">
+      <h2 class="font-size-3xl lg:font-size-4xl mt-0 mb-5">
+        Tap into our community knowledge
+      </h2>
+      <a href="https://community.typeform.com" class="button button-primary w-full md:w-auto" x-data="link" @click="() => handleClick('community', 'button', 'footer', 'Find answers')">
+        Find answers
+      </a>
+    </div>
+    <div class="closing-section col-span-all lg:col-span-6 bg-tertiary">
+      <h2 class="font-size-3xl lg:font-size-4xl mt-0 mb-5">
+        Can’t find what you’re 
+looking for?
+      </h2>
+      <a href="https://typeform.zendesk.com/hc/en-us/requests/new" class="button button-primary w-full md:w-auto" x-data="link" @click="() => handleClick('contact_support', 'button', 'footer', 'Contact support')">
+        Contact support
+      </a>
+    </div>
+  </section>
+</div> 
+
+<script
+  type="text/javascript">document.documentElement.classList.add('article-page', 'article-' + 23541138531732)</script>
+
+
+
+<script type="text/template" id="tmpl-sidebar-table-of-contents">
+  <% if (allItems.length > 1) { %>
+  <div
+    class="sticky top-header"
+    data-spy="scroll"
+    data-offset="120px"
+    style="padding-top: 120px; margin-top: -120px"
+  >
+    <h3 class="font-size-2xl mb-4">
+      In this article
+    </h3>
+    <ol class="nav nav-pills flex-column font-size-md flex-no-wrap" x-data="scrollableElement">
+      <% allItems.forEach(function(item) { %>
+      <li class="nav-item">
+        <a class="nav-link text-inherit" href="<%= item.html_url %>" x-data="link" 
+        
+        >
+          <%= item.name %>
+        </a>
+      </li>
+      <% }); %>
+    </ol>
+  </div>
+  <% } %>
+</script>
+
+
+
+  </main>
+
+  
+<footer class="footer border-top" id="footer">
+  <div class="grid py-6">
+    <nav class="nav flex-column align-items-center lg:flex-row lg:justify-content-between col-span-all font-size-md">
+      <span class="nav-text">
+        <svg class="svg-icon mr-1" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg"
+             aria-hidden="true">
+          <path
+            d="M6.47412 8.32788C7.57698 8.32788 8.47412 7.43045 8.47412 6.32788C8.47412 5.22531 7.57698 4.32788 6.47412 4.32788C5.37126 4.32788 4.47412 5.22531 4.47412 6.32788C4.47412 7.43045 5.37126 8.32788 6.47412 8.32788Z"
+            stroke="currentcolor"></path>
+          <path
+            d="M2.94498 2.75822C3.88798 1.83593 5.14134 1.32788 6.47461 1.32788C7.80788 1.32788 9.06124 1.83593 10.0042 2.75822C11.7624 4.47797 11.9789 7.71563 10.4614 9.69496L6.47461 15.3279L2.48147 9.68643C0.970354 7.71563 1.18714 4.47797 2.94498 2.75822Z"
+            stroke="currentcolor"></path>
+          </svg>With love, from Barcelona
+        </span>
+
+      
+        <div class="relative" x-data="Widgets.dropdown" @click.away="close">
+          <button class="nav-link not-a-button h-full flex w-full"
+                  aria-haspopup="true" :aria-expanded="isExpanded" x-ref="toggle">
+            <svg class="svg-icon mr-1" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path
+                d="M10 0C4.5 0 0 4.5 0 10s4.5 10 10 10 10-4.5 10-10S15.5 0 10 0zM9 17.9C5.1 17.4 2 14 2 10c0-.6.1-1.2.2-1.8L7 13v1c0 1.1.9 2 2 2v1.9zm6.9-2.5c-.3-.8-1-1.4-1.9-1.4h-1v-3c0-.6-.4-1-1-1H6V8h2c.6 0 1-.4 1-1V5h2c1.1 0 2-.9 2-2v-.4c2.9 1.2 5 4.1 5 7.4 0 2.1-.8 4-2.1 5.4z"
+                fill="currentColor" fill-rule="evenodd"></path>
+            </svg>
+            English (US)
+            <svg class="svg-icon ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" aria-hidden="true"
+                 :class="{ 'rotate-180': isExpanded }">
+              <use xlink:href="#icon-chevron-down"/>
+            </svg>
+          </button>
+          <div class="z-dropdown absolute my-2 bg-white border border-radius-1 shadow-md min-w-dropdown" x-ref="menu"
+               x-cloak x-show="isExpanded">
+            <div class="py-2 font-size-sm text-left">
+              
+                <a class="dropdown-item" href="/hc/change_language/es?return_to=%2Fhc%2Fes%2Farticles%2F23541138531732-C%25C3%25B3mo-crear-formularios-multiling%25C3%25BCes%3F_gl%3D1%252Aiv5ts5%252A_up%252AMQ..%252A_ga%252ANjMxMzgwMTMuMTc0MzQ5ODM1MQ..%252A_ga_YBVHZJ5VPC%252AMTc0MzQ5ODM1MC4xLjEuMTc0MzQ5ODk0NC4wLjAuMA..%252A_ga_N6F0VDRT9W%252AMTc0MzQ5ODM1MC4xLjEuMTc0MzQ5ODk0NC4wLjAuMA.." dir="ltr" rel="nofollow" x-data="link" @click="() => handleClick('footer', 'menu', 'footer')">
+                  Español
+                </a>
+              
+            </div>
+          </div>
+        </div>
+      <span class="flex flex-column md:flex-row align-items-center">
+        <button id="cookie-settings" class="nav-link not-a-button underline hover:underline"
+          onclick="window?.OneTrust?.ToggleInfoDisplay()" x-data="toggle" @click="() => handleClick('footer', 'menu', 'footer')" >
+          Cookie settings
+        </button>
+        <a class="nav-link underline hover:underline" href="https://admin.typeform.com/to/dwk6gt/?typeform-source=www.typeform.com" x-data="link" @click="() => handleClick('footer', 'link', 'footer')">
+          Check our Cookie Policy to delete cookies
+        </a>
+        <a class="nav-link underline hover:underline" href="https://www.typeform.com/help/a/report-abuse-360034113252/" x-data="link" @click="() => handleClick('footer', 'link', 'footer')">
+          Report abuse
+        </a>
+      </span>
+
+      
+      <span class="flex">
+          <a class="nav-link" href="https://www.facebook.com/typeform/" aria-label="facebook link" target="_blank"  x-data="link" @click="() => handleClick('footer', 'link', 'footer')">
+            <svg class="svg-icon fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"
+                 aria-hidden="true">
+              <path
+                d="M6 0a6 6 0 01.813 11.945V7.63h1.552l.244-1.585H6.812v-.867c0-.658.214-1.242.827-1.242h.985V2.55c-.173-.024-.538-.075-1.23-.075-1.444 0-2.29.767-2.29 2.513v1.055H3.618v1.585h1.484v4.304A6.001 6.001 0 016 0z"></path>
+            </svg>
+          </a>
+        
+          <a class="nav-link" href="https://x.com/typeform/" aria-label="X link" target="_blank" x-data="link" @click="() => handleClick('footer', 'link', 'footer')">
+            <svg class="svg-icon fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                 aria-hidden="true">
+              <path
+                d="M14.095479,10.316482L22.286354,1h-1.940718l-7.115352,8.087682L7.551414,1H1l8.589488,12.231093L1,23h1.940717  l7.509372-8.542861L16.448587,23H23L14.095479,10.316482z M11.436522,13.338465l-0.871624-1.218704l-6.924311-9.68815h2.981339  l5.58978,7.82155l0.867949,1.218704l7.26506,10.166271h-2.981339L11.436522,13.338465z"/>
+            </svg>
+          </a>
+        
+          <a class="nav-link" href="https://www.linkedin.com/company/typeform-com/" aria-label="linkedin link" target="_blank" x-data="link" @click="() => handleClick('footer', 'link', 'footer')">
+            <svg class="svg-icon fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"
+                 aria-hidden="true">
+              <path
+                d="M10.8 0A1.2 1.2 0 0112 1.2v9.6a1.2 1.2 0 01-1.2 1.2H1.2A1.2 1.2 0 010 10.8V1.2A1.2 1.2 0 011.2 0h9.6zM8.09 4.356a1.87 1.87 0 00-1.598.792l-.085.133h-.024v-.783H4.676v5.727h1.778V7.392c0-.747.142-1.47 1.068-1.47.913 0 .925.854.925 1.518v2.785h1.778V7.084l-.005-.325c-.05-1.38-.456-2.403-2.13-2.403zm-4.531.142h-1.78v5.727h1.78V4.498zm-.89-2.846a1.032 1.032 0 100 2.064 1.032 1.032 0 000-2.064z"></path>
+            </svg>
+          </a>
+        
+          <a class="nav-link" href="https://www.instagram.com/typeform/" aria-label="instagram link" target="_blank" x-data="link" @click="() => handleClick('footer', 'link', 'footer')">
+            <svg class="svg-icon fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                 aria-hidden="true">
+              <path
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+            </svg>
+          </a>
+        
+          <a class="nav-link" href="https://www.youtube.com/channel/UC2nRv6J0FsJVePJTLhUDKgg/" aria-label="youtube link" target="_blank" x-data="link" @click="() => handleClick('footer', 'link', 'footer')">
+            <svg class="svg-icon fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                 aria-hidden="true">
+              <path
+                d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+            </svg>
+          </a>
+        </span>
+
+      <span class="nav-text">
+          © Typeform
+        </span>
+
+    </nav>
+
+    
+      <div
+        class="fixed bottom-0 left-0"
+        data-element="back-to-top"
+        data-template="back-to-top-link"
+        data-threshold="250px">
+      </div>
+    </div>
+</footer> 
+
+
+
+
+<script type="text/javascript" src="/hc/theming_assets/01JC0G7JJ45T9YX5RAQSG5KPBG" defer></script>
+<script type="text/javascript" src="/hc/theming_assets/01JC0G7KN58F3VMJNKSJM0JQ48" defer></script>
+<script type="text/javascript" src="/hc/theming_assets/01JKDRE10T95GK5A4JDWHBNFZZ" defer></script>
+<script type="text/javascript" src="/hc/theming_assets/01JKQJCJC9JWQQWVZQKKB3E7MQ" defer></script>
+<script src="https://cdn.jsdelivr.net/combine/npm/alpinejs@3.13.0/dist/cdn.min.js" defer></script>
+<script type="text/javascript" src="/hc/theming_assets/01JC0G7KBGKPNEVHDRHMPJNN3D" defer></script>
+  <script type="text/javascript" src="/hc/theming_assets/01JC0G7JHV1QS302MEYAKQVX46" defer></script>
+
+      <script type="text/template" id="tmpl-popular-keywords">
+        <div class="flex flex-column flex-wrap mt-6 align-items-center"
+             x-data="Widgets.popularKeywords"
+             x-init="parseKeywords(`<%= keywords %>`)">
+            <p class="m-1 mb-5">
+              Popular searches
+            </p>
+          <div class="flex flex-wrap align-items-center justify-content-center">
+            <template x-for="(keyword, index) in keywords" :key="index">
+              <div class="flex align-items-center m-1">
+                <a class="inline-block text-inherit badge bg-purple-200 text-inherit"
+                   :href="keyword.html_url"
+                   :title="keyword.title"
+                   x-text="keyword.title"
+                   x-data="link">
+                </a>
+              </div>
+            </template>
+          </div>
+        </div>
+      </script>
+    
+    <script type="text/template" id="tmpl-back-to-top-link">
+      <button class="flex button button-outline button-sm bg-white p-3 m-4" x-data="toggle" 
+      
+      >
+        <span class="sr-only">Return to top</span>
+        <svg class="fill-current" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+             aria-hidden="true">
+          <polygon points="12.4,40.1 25.8,53.6 40.5,38.8 40.5,97.5 59.5,97.5 59.5,38.8 74.2,53.6 87.6,40.1 50,2.5"/>
+        </svg>
+      </button>
+    </script>
+  
+<svg xmlns="http://www.w3.org/2000/svg" class="hidden">
+  <symbol id="icon-search">
+    <g id="search">
+      <path id="icon" fill-rule="evenodd" clip-rule="evenodd"
+            d="M11.5 5C8.18629 5 5.5 7.68629 5.5 11C5.5 14.3137 8.18629 17 11.5 17C14.8137 17 17.5 14.3137 17.5 11C17.5 7.68629 14.8137 5 11.5 5ZM3.5 11C3.5 6.58172 7.08172 3 11.5 3C15.9183 3 19.5 6.58172 19.5 11C19.5 12.8487 18.8729 14.551 17.8199 15.9056L21.2071 19.2929C21.5976 19.6834 21.5976 20.3166 21.2071 20.7071C20.8166 21.0976 20.1834 21.0976 19.7929 20.7071L16.4056 17.3199C15.051 18.3729 13.3487 19 11.5 19C7.08172 19 3.5 15.4183 3.5 11Z"
+            fill="currentColor"/>
+    </g>
+  </symbol>
+  <symbol id="icon-lock">
+    <rect width="12" height="9" x="2" y="7" fill="currentColor" rx="1" ry="1"/>
+    <path fill="none" stroke="currentColor" d="M4.5 7.5V4a3.5 3.5 0 017 0v3.5"/>
+  </symbol>
+  <symbol id="icon-star">
+    <polygon points="213 325 81 405 116 255 0 154 153 141 213 0 273 141 426 154 310 255 345 405"></polygon>
+  </symbol>
+  <symbol id="icon-chevron-down">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+  </symbol>
+  <symbol id="icon-agent">
+    <path fill="currentColor"
+          d="M6 0C2.7 0 0 2.7 0 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm0 2c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm2.3 7H3.7c-.3 0-.4-.3-.3-.5C3.9 7.6 4.9 7 6 7s2.1.6 2.6 1.5c.1.2 0 .5-.3.5z"/>
+  </symbol>
+</svg>
+
+<script type="text/javascript">
+    
+  Theme.alternativeLocales = [{
+    name: "Español",
+    url: "/hc/change_language/es?return_to=%2Fhc%2Fes%2Farticles%2F23541138531732-C%25C3%25B3mo-crear-formularios-multiling%25C3%25BCes%3F_gl%3D1%252Aiv5ts5%252A_up%252AMQ..%252A_ga%252ANjMxMzgwMTMuMTc0MzQ5ODM1MQ..%252A_ga_YBVHZJ5VPC%252AMTc0MzQ5ODM1MC4xLjEuMTc0MzQ5ODk0NC4wLjAuMA..%252A_ga_N6F0VDRT9W%252AMTc0MzQ5ODM1MC4xLjEuMTc0MzQ5ODk0NC4wLjAuMA..",
+    direction: "ltr" }];
+</script>
+
+
+
+
+
+
+<script type="text/template" id="tmpl-category-tabs">
+  <ul class="nav nav-tabs white-space-no-wrap collapsible-nav<% if (categories.length < 2) { %> hidden md:flex<% } %>">
+    <% categories.forEach(function(category) { %>
+    <li class="nav-item has-dropdown tracking-tight text-base md:text-inherit"
+        aria-selected="<%= category.id === activeCategoryId %>">
+      <% if (category.id === activeCategoryId) { %>
+         <a class="nav-link text-base px-0 sm:px-4 hover:text-base is-active" aria-selected="true"
+            x-data="link"
+            href="<%= category.html_url %>">
+           <%= category.name %>
+         </a>      <% } else { %>
+      <a class="nav-link text-inherit px-0 sm:px-4 hover:text-inherit text-gray-700 md:text-black" x-data="link"
+         href="<%= category.html_url %>">
+        <%= category.name %>
+      </a>
+      <% } %>
+      <% if (category.sections.length) { %>
+      <div class="dropdown-menu-container">
+        <ul class="dropdown-menu list-none font-size-md">
+          <% category.sections.forEach(function(section) { %>
+          <li class="nav-item">
+          <a
+            class="dropdown-item<% if (section.isActive) { %> is-active<% } %>" href="<%= category.html_url %>#section-anchor-<%= section.id %>?smooth-scroll=true&offset=88px">
+            <%= section.name %>
+            </a>
+          </li>
+          <% }); %>
+        </ul>
+      </div>
+      <% } %>
+    </li>
+    <% }); %>
+  </ul>
+</script>
+
+
+<script type="text/template" id="tmpl-article-list">
+  <div class="border-top border-bottom lg:border-transparent my-2" x-data="toggle({ isOpen: false })"
+       @collapse:show.stop="open" @collapse:hide.stop="close">
+
+    
+    <h3 class="flex align-items-center justify-content-between my-4 font-size-lg cursor-pointer lg:hidden"
+        data-toggle="collapse" data-target="#sidebar-article-navigation" aria-controls="sidebar-article-navigation"
+        aria-expanded="false">
+      Categories
+      <svg class="fill-current pointer-events-none ml-3" :class="isOpen && 'rotate-180'" width="14px"
+           viewBox="0 0 40 20" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M20,19.5 C19.4,19.5 18.9,19.3 18.4,18.9 L1.4,4.9 C0.3,4 0.2,2.4 1.1,1.4 C2,0.3 3.6,0.2 4.6,1.1 L20,13.8 L35.5,1.1 C36.6,0.2 38.1,0.4 39,1.4 C39.9,2.5 39.7,4 38.7,4.9 L21.7,18.9 C21.1,19.3 20.5,19.5 20,19.5 Z"
+          fill-rule="nonzero"></path>
+      </svg>
+    </h3>
+
+    <div class="collapse lg:expand lg:flex-column" id="sidebar-article-navigation">
+      <ul class="list-unstyled font-size-lg w-full">
+        <% categories.forEach(function(category, index) { %>
+        <li class="font-semibold" x-data="toggle({ isOpen: <%= !!category.isActive %> })" @collapse:show.stop="open"
+            @collapse:hide.stop="close">
+
+          
+          <div class="flex justify-content-between align-items-center">
+            <a class="flex-1 py-3 text-inherit" :class="{ 'text-inherit': !isOpen }" href="<%= category.html_url %>" x-data="link" 
+            
+            >
+              <%= category.name %>
+            </a>
+            <button
+              class="p-2 ml-1 not-a-button border-radius transition cursor-pointer hover:bg-gray-200 hidden lg:block"
+              :class="{ 'is-active': isOpen }" :aria-expanded="isOpen" data-toggle="collapse"
+              data-target="#category-<%= category.id %>" x-data="category" 
+              
+              >
+              <svg class="text-inherit fill-current pointer-events-none" :class="{ 'rotate-180': isOpen }" width="12px"
+                   height="12px" viewBox="0 0 324 190" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path
+                  d="M162,190 C156,190 150,187 146,183 L7,38 C-2,29 -2,15 7,7 C16,-2 30,-2 39,7 L162,135 L285,7 C293,-2 308,-2 317,7 C326,15 326,29 317,38 L178,183 C174,187 168,190 162,190 Z"></path>
+              </svg>
+            </button>
+          </div>
+
+          <div class="hidden lg:block">
+            
+            <%= partial('partial-article-list-sections', {
+            id: 'category-' + category.id,
+            parentId: '#sidebar-article-navigation',
+            sections: category.sections,
+            activeCategoryId: activeCategoryId,
+            activeSectionId: activeSectionId,
+            activeArticleId: activeArticleId,
+            partial: partial
+            }) %>
+          </div>
+        </li>
+        <% }); %>
+      </ul>
+    </div>
+  </div>
+</script>
+
+
+<script type="text/template" id="tmpl-section-list">
+  <% var maxSections =  5 %>
+  <div class="border-top border-bottom lg:border-transparent my-4" x-data="toggle({ isOpen: false })"
+       @collapse:show.stop="open" @collapse:hide.stop="close">
+
+    
+    <h3 class="flex align-items-center justify-content-between my-4 font-size-lg cursor-pointer lg:hidden"
+        data-toggle="collapse" data-target="#sidebar-section-navigation" aria-controls="sidebar-section-navigation"
+        aria-expanded="false">
+      Toggle navigation menu
+      <svg class="fill-current pointer-events-none ml-3" :class="isOpen && 'rotate-180'" width="14px"
+           viewBox="0 0 40 20" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M20,19.5 C19.4,19.5 18.9,19.3 18.4,18.9 L1.4,4.9 C0.3,4 0.2,2.4 1.1,1.4 C2,0.3 3.6,0.2 4.6,1.1 L20,13.8 L35.5,1.1 C36.6,0.2 38.1,0.4 39,1.4 C39.9,2.5 39.7,4 38.7,4.9 L21.7,18.9 C21.1,19.3 20.5,19.5 20,19.5 Z"
+          fill-rule="nonzero"></path>
+      </svg>
+    </h3>
+
+    <div class="collapse lg:expand lg:flex-column" id="sidebar-section-navigation">
+      <ul class="list-unstyled m-0 py-2">
+        <% categories.forEach(function(category, index) { %>
+        <li>
+          <h3 class="font-size-lg <% if (index === 0) { %>mt-4 lg:mt-0<% } else { %>mt-6<% } %>">
+            <a class="text-inherit" href="<%= category.html_url %>" x-data="link" 
+            
+            >
+              <%= category.name %>
+            </a>
+          </h3>
+          <%= partial('partial-section-list-sections', { parent: category, sections: category.sections, maxSections:
+          maxSections, partial: partial }) %>
+        </li>
+        <% }); %>
+      </ul>
+    </div>
+  </div>
+</script>
+
+
+<script type="text/template" id="tmpl-category-list">
+  <div class="list-unstyled my-4 border-top border-bottom md:my-5 lg:border-transparent"
+       x-data="toggle({ isOpen: false })" @collapse:show.stop="open" @collapse:hide.stop="close">
+
+    
+    <h3 class="flex align-items-center justify-content-between my-4 font-size-lg cursor-pointer lg:hidden"
+        data-toggle="collapse" data-target="#sidebar-category-navigation" aria-controls="sidebar-category-navigation"
+        aria-expanded="false">
+      Categories
+      <svg class="fill-current pointer-events-none ml-3" :class="isOpen && 'rotate-180'" width="14px"
+           viewBox="0 0 40 20" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M20,19.5 C19.4,19.5 18.9,19.3 18.4,18.9 L1.4,4.9 C0.3,4 0.2,2.4 1.1,1.4 C2,0.3 3.6,0.2 4.6,1.1 L20,13.8 L35.5,1.1 C36.6,0.2 38.1,0.4 39,1.4 C39.9,2.5 39.7,4 38.7,4.9 L21.7,18.9 C21.1,19.3 20.5,19.5 20,19.5 Z"
+          fill-rule="nonzero"></path>
+      </svg>
+    </h3>
+
+    <div class="collapse lg:expand lg:flex-column" id="sidebar-category-navigation">
+      <h3 class="font-size-lg mt-0 hidden lg:block">
+        <a class="text-inherit" href="/hc/en-us" x-data="link" 
+        >
+          Categories
+        </a>
+      </h3>
+      <ul class="list-unstyled font-size-md">
+        <% categories.forEach(function(category) { %>
+        <li>
+          <a class="block py-2<% if (category.isActive) { %> underline<% } %>" href="<%= category.html_url %>" x-data="link" 
+          >
+            <%= category.name %>
+          </a>
+        </li>
+        <% }); %>
+      </ul>
+    </div>
+  </div>
+</script>
+
+
+
+
+<script type="text/template" id="tmpl-partial-article-list-sections">
+  <% if (sections.length) { %>
+  <ul class="list-none pl-3 mb-0 font-size-base collapse" id="<%= id %>" :class="{ 'is-visible': isOpen }"
+      data-parent="<%= parentId %>">
+    <% sections.forEach(function(section) { %>
+    <li class="font-medium" x-data="toggle({ isOpen: <%= !!section.isActive %> })" @collapse:show.stop="open"
+        @collapse:hide.stop="close">
+
+      
+      <div class="flex justify-content-between align-items-center">
+        <a class="flex-1 py-2 text-inherit font-semibold" :class="{ 'text-inherit': !isOpen }" x-data="link" 
+        
+        >
+           href="<%= section.html_url %>">
+          <%= section.name %>
+        </a>
+        <button class="p-2 ml-1 not-a-button border-radius transition cursor-pointer hover:bg-gray-200"
+                :class="{ 'is-active': isOpen }" :aria-expanded="isOpen" data-toggle="collapse"
+                data-target="#section-<%= section.id %>"
+                >
+          <svg class="text-inherit fill-current pointer-events-none" :class="{ 'rotate-180': isOpen }" width="12px"
+               height="12px" viewBox="0 0 324 190" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path
+              d="M162,190 C156,190 150,187 146,183 L7,38 C-2,29 -2,15 7,7 C16,-2 30,-2 39,7 L162,135 L285,7 C293,-2 308,-2 317,7 C326,15 326,29 317,38 L178,183 C174,187 168,190 162,190 Z"></path>
+          </svg>
+        </button>
+      </div>
+
+      
+      <%= partial('partial-article-list-sections', {
+      id: 'section-' + section.id,
+      parentId: '#' + id,
+      sections: section.sections,
+      activeCategoryId: activeCategoryId,
+      activeSectionId: activeSectionId,
+      activeArticleId: activeArticleId,
+      partial: partial
+      }) %>
+
+      
+      <% if (section.articles.length) { %>
+      <ul class="list-none font-size-md pl-0 mb-0 collapse" :class="{ 'is-visible': isOpen }"
+          id="section-<%= section.id %>" data-parent="#<%= id %>">
+        <% section.articles.forEach(function(article) { %>
+        <li>
+          <a
+            class="block px-3 py-2 border-radius transition text-inherit<% if (article.isActive) { %> bg-gray-100<% } %>"
+            href="<%= article.html_url %>">
+            <%= article.title %>
+          </a>
+        </li>
+        <% }); %>
+      </ul>
+      <% } %>
+
+    </li>
+    <% }); %>
+  </ul>
+  <% } %>
+</script>
+
+
+<script type="text/template" id="tmpl-partial-section-list-sections">
+  <% if (sections.length) { %>
+  <ul class="list-unstyled font-size-md<% if (parent.hasOwnProperty('parent_section_id')) { %> pl-4 mb-0<% } %>">
+    <% sections.slice(0, maxSections).forEach(function(section) { %>
+    <li>
+      <a class="block py-2<% if (section.isActive) { %> underline<% } %>" href="<%= section.html_url %>" x-data="link" 
+      
+      >
+        <%= section.name %>
+      </a>
+      <%= partial('partial-section-list-sections', { parent: section, sections: section.sections, maxSections:
+      maxSections, partial: partial }) %>
+    </li>
+    <% }); %>
+    <% if (sections.length > maxSections) { %>
+    <li>
+      <a class="block py-2" href="<%= parent.html_url %>" x-data="link" 
+      
+      >
+        See more
+      </a>
+    </li>
+    <% } %>
+  </ul>
+  <% } %>
+</script>
+
+<script>
+  function onZendeskLoad() {
+    window.zE(() => {
+      window.zE('messenger:set', 'locale', 'en-us')
+      window.zE('messenger:set', 'conversationTags', ['help-center-zd-bot'])
+
+      // Track widget open
+      window.zE('messenger:on', 'open', function () {
+         window.trackingHelper.trackItemClicked({
+            item: 'chat_support',
+            item_type: 'widget',
+            location: 'help_center',
+            action: 'open',
+        })
+      })
+
+      // Track widget close
+      window.zE('messenger:on', 'close', function () {
+         window.trackingHelper.trackItemClicked({
+            item: 'chat_support',
+            item_type: 'widget',
+            location: 'help_center',
+            action: 'close',
+        })
+      })
+    })
+  }
+</script>
+
+<script
+  id="ze-snippet"
+  src="https://static.zdassets.com/ekr/snippet.js?key=f669a824-5592-4bd4-a8b3-ebafe5198c13"
+  onload="onZendeskLoad()"
+  fetchpriority="low"
+  defer
+></script>
+
+<script src="https://status.typeform.com/embed/script.js" fetchpriority="low" defer></script>
+
+<!-- GTM NO SCRIPT -->
+  <noscript data-testid='gtm-no-script' id="gtm-no-script-GTM-WH2ZQ3X">
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WH2ZQ3X" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+
+
+
+  <!-- / -->
+
+  
+  <script src="//static.zdassets.com/hc/assets/en-us.2e1abb2645a9c23ddaa2.js"></script>
+  <script src="https://typeform.zendesk.com/auth/v2/host/without_iframe.js" data-brand-id="2916876" data-return-to="https://help.typeform.com/hc/en-us/articles/23541138531732-Create-multi-language-forms" data-theme="hc" data-locale="en-us" data-auth-origin="2916876,true,true"></script>
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"typeform","environment":"production","name":"Typeform Help Center"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":"","role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","is_admin":false,"organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"en-us","csrf_token":null,"shared_csrf_token":null},"usage_tracking":{"event":"article_viewed","data":"BAh7CDoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGwrCJQlMxlpFToKX21ldGF7DDoPYWNjb3VudF9pZGkD1Y4FOhNoZWxwX2NlbnRlcl9pZGkEDcbrCzoNYnJhbmRfaWRpAwyCLDoMdXNlcl9pZDA6E3VzZXJfcm9sZV9uYW1lSSIOQU5PTllNT1VTBjsGVDsASSIKZW4tdXMGOwZUOhphbm9ueW1vdXNfdHJhY2tpbmdfaWQw--9e397390c54c33c61ccc1e138374067e7a648b7f","url":"https://help.typeform.com/hc/activity"},"current_record_id":"23541138531732","current_record_url":"/hc/en-us/articles/23541138531732-Create-multi-language-forms","current_record_title":"Create multi-language forms","current_text_direction":"ltr","current_brand_id":2916876,"current_brand_name":"Typeform","current_brand_url":"https://typeform.zendesk.com","current_brand_active":true,"current_path":"/hc/en-us/articles/23541138531732-Create-multi-language-forms","show_autocomplete_breadcrumbs":true,"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_end_user_attachments":true,"user_aliases_enabled":false,"has_anonymous_kb_voting":true,"has_multi_language_help_center":true,"show_at_mentions":false,"embeddables_config":{"embeddables_web_widget":false,"embeddables_connect_ipms":false,"web_widget_seamless_auth_enabled":false},"answer_bot_subdomain":"static","general_settings_url":"https://help.typeform.com/hc/admin/general_settings?locale=en-us","user_segments_url":"https://typeform.zendesk.com/knowledge/user_segments?brand_id=2916876","has_gather":true,"has_ckeditor":true,"has_community_enabled":false,"has_community_badges":true,"has_community_post_content_tagging":false,"has_gather_content_tags":true,"has_guide_content_tags":true,"has_user_segments":true,"has_answer_bot_web_form_enabled":true,"has_edit_user_profile_v2":true,"has_garden_modals":false,"theming_cookie_key":"hc-da39a3ee5e6b4b0d3255bfef95601890afd80709-2-preview","is_preview":false,"has_alternate_templates":true,"arrange_articles_url":"https://typeform.zendesk.com/knowledge/arrange?brand_id=2916876","article_verification_url":"https://typeform.zendesk.com/knowledge/verification?brand_id=2916876","has_article_verification":true,"guide_language_settings_url":"https://help.typeform.com/hc/admin/language_settings?locale=en-us","docs_importer_url":"https://typeform.zendesk.com/knowledge/import_articles?brand_id=2916876","content_tags_url":"https://typeform.zendesk.com/knowledge/content_tags?brand_id=2916876","community_badges_url":"https://typeform.zendesk.com/knowledge/community_badges?brand_id=2916876","community_settings_url":"https://typeform.zendesk.com/knowledge/community_settings?brand_id=2916876","gather_plan_state":"subscribed","search_settings_url":"https://typeform.zendesk.com/knowledge/search_settings?brand_id=2916876","has_search_settings_in_plan":true,"theming_api_version":3,"theming_settings":{"color_primary":"#ECCFFA","color_primary_inverse":"#3C323E","color_secondary":"#F7EDFC","color_secondary_inverse":"#3C323E","color_tertiary":"#E2F0FE","color_tertiary_inverse":"#3C323E","color_heading":"#3C323E","color_text":"#3C323E","color_link":"#3C323E","color_outline":"#837A85","color_border":"#D5D1D6","color_gray_100":"#F5F3F6","color_gray_200":"#F5F3F6","color_gray_600":"#F5F3F6","bg_color":"#FAF9FB","heading_font":"apercu-pro, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","text_font":"apercu-pro, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","base_font_size":"16px","favicon":"/hc/theming_assets/01JC5JAJJ8K6P8JH0NTDGAAMRW","logo":"/hc/theming_assets/01JJ1JGV6KD6WN38D8ZX2H0FE3","logo_height":"24px","tagline":"","community_background_image":"/hc/theming_assets/01JC0G7PBN548YHVSY9HZ0CXAD","header_search_style":"inline","instant_search":true,"scoped_kb_search":true,"scoped_community_search":true,"search_placeholder":"search_placeholder","header_layout":"links-right","nav_style":"standard","nav_breakpoint":"lg","full_width_header":true,"color_header_link":"#372E38","color_header_link_fixed":"#372E38","bg_color_header":"#FFFFFF","show_submit_a_request_link":true,"show_category_heading":true,"notification_location":"none","notification_content":"notification_content","color_notification":"#fff","bg_color_notification":"#3C323E","back_to_top_link_style":"standard","bg_color_boxed":"#F7F7F7","color_hero_heading":"#372E38","color_hero_text":"#372E38","bg_color_hero":"#ECCFFA","popular_keywords_style":"badges","hp_section_1_card_1_image":"/hc/theming_assets/01JDSR9YJQ1WJYKK5NWF6W1N1B","hp_section_1_card_2_image":"/hc/theming_assets/01JDSR9YY2J9MYH7VBR041NCHG","hp_section_1_card_3_image":"/hc/theming_assets/01JDSR9ZAJ0V1ZF38S4Y77M7T5","article_list_style":"1-bullet","article_list_columns":"3","article_list_excerpt":0,"promoted_article_style":"icon","subsection_style":"none","show_article_voting":true,"show_recently_viewed_articles":true,"show_related_articles":true,"note_title":"","color_note":"#61a5ff","warning_title":"","color_warning":"#ef526e","form_list_style":"standard","form_tip":"new_request_page_form_tip","community_image_style":"standard","show_recent_activity_community":true,"show_follow_topic":true,"show_follow_post":true,"show_post_sharing":true,"use_translations":true},"has_pci_credit_card_custom_field":true,"help_center_restricted":false,"is_assuming_someone_else":false,"flash_messages":[],"user_photo_editing_enabled":true,"user_preferred_locale":"en-us","base_locale":"en-us","has_user_session_cookie_enabled":true,"has_custom_statuses_enabled":true,"has_generative_answers_in_help_center":false,"has_generative_answers_in_help_center_for_anonymous":true,"has_hc_generative_answers_setting_enabled":true,"has_intl_date_format_enabled":true,"has_guide_service_catalog":false,"version":"v26041"};
+</script>
+
+  
+  <script src="//static.zdassets.com/hc/assets/hc_enduser-d9f859c74bbad82cdf2417951f3382a2.js"></script>
+  <script type="text/javascript" src="/hc/theming_assets/364245/2916876/script.js?digest=37407366676756"></script>
+  
+</body>
+</html>
